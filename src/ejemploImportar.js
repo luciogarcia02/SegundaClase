@@ -1,5 +1,7 @@
 
 module.exports() = {
+    name : "prueba",
+
     dameNumero(valor){
         let valorDevolver;
         let valorComparar=valor.toUpperCase();
@@ -13,6 +15,7 @@ module.exports() = {
        }else{
         throw new Error('La opcion no es valida')
        }
+       return valorDevolver;
     }
     
 }
